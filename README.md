@@ -1,2 +1,8 @@
-# Sharingdayz09102019 git init git add README.md git commit -m first commit git remote add origin git@github.com:iTopPlus/Sharingdayz09102019.git git push -u origin master
-# Sharingdayz09102019
+# Sharingdayz09102019 
+ EM Regex https://verbalexpressions.github.io/JSVerbalExpressions/VerEx
+ Bew + Server Sent Event -> PowerBI Real Time
+ Bank TreeJs
+ Jo + Merge Sort -> Order
+ Atom : Cookie HTTP Only mode
+ Tonny : Cloud Pub/Sub
+
