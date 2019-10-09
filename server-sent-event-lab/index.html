@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <div id="messages">
+        </div>
+        <script>
+            let source = new EventSource('http://localhost:3987')
+            source.onmessage = event => {
+                data = JSON.parse(event.data)
+                document.getElementById('messages').insertAdjacentHTML('beforeend', `<p>${data.message}</p>`)
+            }
+        </script>
+    </body>
+</html>
