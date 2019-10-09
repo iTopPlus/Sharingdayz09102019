@@ -24,7 +24,7 @@ let data = [
 ];
 
 function findNumberLess(data) {
-  let divide = Math.ceil(data.length / 2);
+  let divide = data.length /2;
   if (divide > 1) {
     // console.log("data top->>", data);
     let fieldOne = findNumberLess(data.slice(0, divide));

@@ -26,8 +26,6 @@ let data = [
 function merge(leftArr, rightArr) {
   var sortedArr = [];
   while (leftArr.length && rightArr.length) {
-    console.log("leftArr->>", leftArr);
-    console.log("rightArr->>", rightArr);
     if (leftArr[0] <= rightArr[0]) {
       sortedArr.push(leftArr[0]);
       leftArr = leftArr.slice(1);
